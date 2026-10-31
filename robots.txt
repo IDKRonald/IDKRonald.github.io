@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://idkronald.github.io/sitemap.xml

@@ -1,0 +1,4 @@
+# GitHub Pages: el sitio es HTML estático. Este archivo solo evita que
+# se publiquen como páginas los archivos internos del repositorio.
+exclude:
+  - CLAUDE.md

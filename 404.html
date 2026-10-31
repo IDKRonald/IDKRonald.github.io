@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 · Ronald Hernández</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0D1117">
+  <meta name="color-scheme" content="dark">
+  <!-- Rutas absolutas: GitHub Pages sirve esta página para cualquier URL que no exista -->
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=JetBrains+Mono:wght@400;700&display=swap">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="page-404">
+  <main class="container notfound">
+    <p class="notfound-cmd"><span class="prompt">$</span> cd <span id="missing-path">/ruta</span></p>
+    <h1 class="notfound-title">404<span class="cursor" aria-hidden="true"></span></h1>
+    <p class="notfound-msg">bash: cd: no such file or directory</p>
+    <p class="notfound-text">Esta página no existe. <span lang="en">This page doesn’t exist.</span></p>
+    <a class="btn btn--primary" href="/">cd ~ · volver al inicio</a>
+  </main>
+  <script>
+    try {
+      document.getElementById('missing-path').textContent = decodeURIComponent(location.pathname);
+    } catch (e) {
+      document.getElementById('missing-path').textContent = location.pathname;
+    }
+  </script>
+</body>
+</html>

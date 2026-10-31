@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<style>
+.e{stroke:#30363D;stroke-width:1.2}
+.n{fill:#0D1117;stroke:#8B949E;stroke-width:1.5}
+.h{fill:#22C55E;animation:p 3s ease-in-out infinite}
+@keyframes p{0%,100%{opacity:.25}50%{opacity:1}}
+.cur{fill:#22C55E;animation:b 1s step-end infinite}
+@keyframes b{50%{opacity:0}}
+.t{font-family:"JetBrains Mono","Fira Code",Consolas,"Courier New",monospace}
+</style>
+<rect width="1200" height="300" rx="14" fill="#0D1117"/>
+<defs><pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#21262D"/></pattern>
+<linearGradient id="f" x1="0" x2="1"><stop offset="0" stop-color="#0D1117"/><stop offset=".45" stop-color="#0D1117" stop-opacity=".9"/><stop offset=".6" stop-color="#0D1117" stop-opacity="0"/></linearGradient></defs>
+<rect width="1200" height="300" rx="14" fill="url(#g)"/>
+<line class="e" x1="700" y1="80" x2="790" y2="170"/>
+<line class="e" x1="700" y1="80" x2="885" y2="70"/>
+<line class="e" x1="790" y1="170" x2="885" y2="70"/>
+<line class="e" x1="790" y1="170" x2="965" y2="185"/>
+<line class="e" x1="885" y1="70" x2="1055" y2="95"/>
+<line class="e" x1="965" y1="185" x2="1055" y2="95"/>
+<line class="e" x1="1055" y1="95" x2="1140" y2="215"/>
+<line class="e" x1="965" y1="185" x2="1140" y2="215"/>
+<line class="e" x1="790" y1="170" x2="845" y2="250"/>
+<line class="e" x1="845" y1="250" x2="965" y2="185"/>
+<line class="e" x1="965" y1="185" x2="1020" y2="262"/>
+<line class="e" x1="1020" y1="262" x2="1140" y2="215"/>
+<line class="e" x1="1055" y1="95" x2="1135" y2="48"/>
+<line class="e" x1="640" y1="205" x2="790" y2="170"/>
+<line class="e" x1="640" y1="205" x2="735" y2="262"/>
+<line class="e" x1="735" y1="262" x2="845" y2="250"/>
+<line class="e" x1="640" y1="205" x2="700" y2="80"/>
+<line class="e" x1="600" y1="110" x2="700" y2="80"/>
+<line class="e" x1="600" y1="110" x2="640" y2="205"/>
+<line class="e" x1="885" y1="70" x2="965" y2="185"/>
+<path id="p0" d="M640,205 L790,170 L965,185 L1055,95 L1135,48" fill="none" stroke="#22C55E" stroke-opacity=".35" stroke-width="1.6"/>
+<circle r="4" fill="#22C55E"><animateMotion dur="5s" begin="0s" repeatCount="indefinite"><mpath href="#p0"/></animateMotion></circle>
+<path id="p1" d="M735,262 L845,250 L965,185 L1020,262 L1140,215" fill="none" stroke="#22C55E" stroke-opacity=".35" stroke-width="1.6"/>
+<circle r="4" fill="#22C55E"><animateMotion dur="6s" begin="1.5s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion></circle>
+<path id="p2" d="M600,110 L700,80 L885,70 L1055,95 L1140,215" fill="none" stroke="#22C55E" stroke-opacity=".35" stroke-width="1.6"/>
+<circle r="4" fill="#22C55E"><animateMotion dur="5.5s" begin="3s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion></circle>
+<circle class="n" cx="700" cy="80" r="7"/>
+<circle class="h" cx="700" cy="80" r="3" style="animation-delay:0.37s"/>
+<circle class="n" cx="790" cy="170" r="7"/>
+<circle class="h" cx="790" cy="170" r="3" style="animation-delay:0.74s"/>
+<circle class="n" cx="885" cy="70" r="7"/>
+<circle class="h" cx="885" cy="70" r="3" style="animation-delay:1.11s"/>
+<circle class="n" cx="965" cy="185" r="7"/>
+<circle class="h" cx="965" cy="185" r="3" style="animation-delay:1.48s"/>
+<circle class="n" cx="1055" cy="95" r="7"/>
+<circle class="h" cx="1055" cy="95" r="3" style="animation-delay:1.85s"/>
+<circle class="n" cx="1140" cy="215" r="7"/>
+<circle class="h" cx="1140" cy="215" r="3" style="animation-delay:2.22s"/>
+<circle class="n" cx="845" cy="250" r="7"/>
+<circle class="h" cx="845" cy="250" r="3" style="animation-delay:2.59s"/>
+<circle class="n" cx="1020" cy="262" r="7"/>
+<circle class="h" cx="1020" cy="262" r="3" style="animation-delay:2.96s"/>
+<circle class="n" cx="1135" cy="48" r="7"/>
+<circle class="h" cx="1135" cy="48" r="3" style="animation-delay:0.33s"/>
+<circle class="n" cx="640" cy="205" r="7"/>
+<circle class="h" cx="640" cy="205" r="3" style="animation-delay:0.70s"/>
+<circle class="n" cx="735" cy="262" r="7"/>
+<circle class="h" cx="735" cy="262" r="3" style="animation-delay:1.07s"/>
+<circle class="n" cx="600" cy="110" r="7"/>
+<circle class="h" cx="600" cy="110" r="3" style="animation-delay:1.44s"/>
+<rect width="760" height="300" rx="14" fill="url(#f)"/>
+<text class="t" x="70" y="128" font-size="50" font-weight="700" fill="#F0F6FC">Ronald Hernández</text>
+<text class="t" x="72" y="178" font-size="20" fill="#22C55E">&gt; desarrollador · ingeniería de datos</text>
+<rect class="cur" x="518" y="162" width="11" height="20"/>
+<text class="t" x="72" y="222" font-size="15" fill="#8B949E">Medellín, Colombia · UNAL · SENA</text>
+</svg>
